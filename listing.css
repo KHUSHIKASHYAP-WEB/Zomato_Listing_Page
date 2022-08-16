@@ -154,24 +154,21 @@ ul {
 .noBorder {
   border: none;
 }
-@media screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
+
 @media screen and (max-width: 1000px) {
   .card {
     width: 48%;
   }
   .card-title {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 499px) {
   .card {
     width: 90%;
   }
   .card-title {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
